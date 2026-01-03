@@ -1,0 +1,464 @@
+{
+  "projectList": {
+    "projects": [
+      {
+        "searchName": "progrex",
+        "category": "Library",
+        "id": "1",
+        "demo": "https://crates.io/crates/progrex",
+        "name": "Progrex",
+        "languages": [
+          "Rust"
+        ],
+        "description": "A Rust library for progressive tasks and scheduling.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://crates.io/crates/progrex",
+        "tags": [
+          "Library",
+          "Rust",
+          "Progressive"
+        ],
+        "date": "2024-08-01",
+        "framework": "Rust",
+        "industry": "Software Development",
+        "tasks": [
+          "Build task scheduling mechanisms",
+          "Ensure high performance and low latency",
+          "Support concurrent task processing"
+        ],
+        "requirements": [
+          "Support for background task execution",
+          "Integration with other Rust libraries"
+        ],
+        "details": "Progrex is a high-performance library for task scheduling in Rust, designed to manage and execute tasks with minimum latency.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "limiter",
+        "category": "Library",
+        "id": "2",
+        "demo": "https://github.com/dotandev/Limiter",
+        "name": "LIMITER",
+        "languages": [
+          "Node.js"
+        ],
+        "description": "A rate limiting library for Node.js.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/Limiter",
+        "tags": [
+          "Library",
+          "Rate Limiting",
+          "Node.js"
+        ],
+        "date": "2024-08-02",
+        "framework": "Node.js",
+        "industry": "Software Development",
+        "tasks": [
+          "Implement rate limiting algorithms",
+          "Support multiple strategies (e.g., fixed window, sliding window)",
+          "Ensure scalability and performance"
+        ],
+        "requirements": [
+          "Handle large-scale rate limiting for APIs",
+          "Ensure compliance with rate limits in high-traffic environments"
+        ],
+        "details": "LIMITER is a Node.js library designed to provide rate limiting capabilities for APIs to prevent overloading servers.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "shortie",
+        "category": "Backend",
+        "id": "3",
+        "demo": "https://github.com/dotandev/Shortie",
+        "name": "SHORTIE",
+        "languages": [
+          "Rust"
+        ],
+        "description": "A URL shortening service built using Rust.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/Shortie",
+        "tags": [
+          "URL Shortening",
+          "Rust"
+        ],
+        "date": "2024-08-03",
+        "framework": "Rust",
+        "industry": "Web Services",
+        "tasks": [
+          "Implement URL shortening mechanisms",
+          "Build a high-performance backend service",
+          "Ensure scalability and reliability"
+        ],
+        "requirements": [
+          "Support for large number of URLs",
+          "High availability for shortened URLs"
+        ],
+        "details": "SHORTIE is a Rust-based URL shortening service designed for high scalability and performance, ideal for applications that need to manage a large number of URLs.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "anonymemo",
+        "category": "Backend",
+        "id": "4",
+        "demo": "https://github.com/dotandev/Anony-Memo",
+        "name": "Anony-Memo",
+        "languages": [
+          "Node.js",
+          "Express"
+        ],
+        "description": "An anonymous messaging service built using Node.js and Express.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/Anony-Memo",
+        "tags": [
+          "Messaging",
+          "Node.js",
+          "Express"
+        ],
+        "date": "2024-08-04",
+        "framework": "Node.js, Express",
+        "industry": "Web Services",
+        "tasks": [
+          "Implement anonymous message sending and receiving",
+          "Ensure security and anonymity of users",
+          "Integrate with third-party services for authentication"
+        ],
+        "requirements": [
+          "Support for real-time messaging",
+          "Ensure data privacy and security"
+        ],
+        "details": "Anony-Memo is an anonymous messaging service that allows users to send and receive messages without revealing their identities.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "skypulse",
+        "category": "Backend",
+        "id": "5",
+        "demo": "https://github.com/dotandev/SkyPulse",
+        "name": "SKY-PULSE",
+        "languages": [
+          "Rust"
+        ],
+        "description": "A space station simulation built with Rust.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/SkyPulse",
+        "tags": [
+          "Simulation",
+          "Rust",
+          "Space"
+        ],
+        "date": "2024-08-05",
+        "framework": "Rust",
+        "industry": "Gaming, Simulation",
+        "tasks": [
+          "Create a simulation environment for a space station",
+          "Implement real-time data processing and control systems",
+          "Ensure scalability for multiple users"
+        ],
+        "requirements": [
+          "Support real-time simulation of space station systems",
+          "Integrate multiplayer functionality for user interactions"
+        ],
+        "details": "SKY-PULSE is a space station simulation game built using Rust, focusing on real-time processing and multiplayer interactions.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "finans",
+        "category": "Backend",
+        "id": "6",
+        "demo": "https://github.com/dotandev/Finans",
+        "name": "FINANS",
+        "languages": [
+          "Node.js"
+        ],
+        "description": "A finance management service built with Node.js.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/Finans",
+        "tags": [
+          "Finance",
+          "Node.js"
+        ],
+        "date": "2024-08-06",
+        "framework": "Node.js",
+        "industry": "Finance, Web Services",
+        "tasks": [
+          "Develop a finance tracking system",
+          "Implement secure authentication and authorization",
+          "Integrate with third-party APIs for financial data"
+        ],
+        "requirements": [
+          "Support for real-time financial tracking",
+          "Secure storage of financial data"
+        ],
+        "details": "FINANS is a finance management service that helps users track their spending and manage their budget with real-time data.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "filer",
+        "category": "Backend",
+        "id": "7",
+        "demo": "https://github.com/dotandev/Filer",
+        "name": "FILER",
+        "languages": [
+          "Go"
+        ],
+        "description": "A file management service built with Go.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/Filer",
+        "tags": [
+          "File Management",
+          "Go"
+        ],
+        "date": "2024-08-07",
+        "framework": "Go",
+        "industry": "Software Development",
+        "tasks": [
+          "Develop a file management system with robust APIs",
+          "Ensure secure file access and sharing",
+          "Support for large file uploads and versioning"
+        ],
+        "requirements": [
+          "High availability for file storage",
+          "Integration with external storage services"
+        ],
+        "details": "FILER is a Go-based file management service that offers secure file sharing, storage, and versioning.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "healthish",
+        "category": "Backend",
+        "id": "8",
+        "demo": "https://github.com/dotandev/HealthISH-API",
+        "name": "Heath-ISH",
+        "languages": [
+          "Node.js"
+        ],
+        "description": "A health service API built using Node.js.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/HealthISH-API",
+        "tags": [
+          "Health",
+          "Node.js"
+        ],
+        "date": "2024-08-08",
+        "framework": "Node.js",
+        "industry": "HealthTech",
+        "tasks": [
+          "Build an API for health data tracking",
+          "Ensure HIPAA compliance for medical data",
+          "Integrate with health data sources"
+        ],
+        "requirements": [
+          "Real-time data tracking and reporting",
+          "Secure storage and transmission of health data"
+        ],
+        "details": "Health-ISH is a health service API designed to track and manage health-related data with compliance to healthcare standards.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "formera",
+        "category": "Backend",
+        "id": "9",
+        "demo": "https://github.com/dotandev/Formera",
+        "name": "FORMERA",
+        "languages": [
+          "Node.js"
+        ],
+        "description": "A form builder API built with Node.js.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/Formera",
+        "tags": [
+          "Form Builder",
+          "Node.js"
+        ],
+        "date": "2024-08-09",
+        "framework": "Node.js",
+        "industry": "Web Services",
+        "tasks": [
+          "Develop a dynamic form builder API",
+          "Support form validation and user input handling",
+          "Ensure scalability for large form collections"
+        ],
+        "requirements": [
+          "Support complex form structures",
+          "Ensure performance under high load"
+        ],
+        "details": "FORMERA is a form builder API that allows users to create and manage dynamic forms with custom validation rules.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "delivapro",
+        "category": "Backend",
+        "id": "10",
+        "demo": "https://github.com/dotandev/Deliva-Backend",
+        "name": "DELIVA-PRO",
+        "languages": [
+          "Node.js",
+          "Express"
+        ],
+        "description": "A full-stack logistics web service.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/Deliva-Backend",
+        "tags": [
+          "Logistics",
+          "Node.js",
+          "Full-Stack"
+        ],
+        "date": "2024-08-10",
+        "framework": "Node.js, Express",
+        "industry": "Logistics",
+        "tasks": [
+          "Build and manage logistics workflows",
+          "Integrate shipment tracking and management",
+          "Develop user interfaces and backend services"
+        ],
+        "requirements": [
+          "Support for real-time tracking",
+          "Ensure system scalability"
+        ],
+        "details": "DELIVA-PRO is a logistics web service designed for managing shipment and delivery tracking for businesses.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "cohi",
+        "category": "Website",
+        "id": "11",
+        "demo": "https://github.com/dotandev/COHI",
+        "name": "COHI",
+        "languages": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "description": "The official website of the Council of Higher Institutions.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/COHI",
+        "tags": [
+          "Website",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "date": "2024-08-11",
+        "framework": "HTML, CSS, JavaScript",
+        "industry": "Education",
+        "tasks": [
+          "Design the official website for the council",
+          "Develop responsive layouts and interactive features",
+          "Integrate user registration and event management"
+        ],
+        "requirements": [
+          "Support for multiple users and members",
+          "Easy-to-navigate UI for educational content"
+        ],
+        "details": "COHI is the official website for the Council of Higher Institutions, providing information, events, and resources for students and institutions.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "tws",
+        "category": "Website",
+        "id": "12",
+        "demo": "https://github.com/dotandev/twsu",
+        "name": "TWS",
+        "languages": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "description": "The official website of the WordsMith Debate Council.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/twsu",
+        "tags": [
+          "Website",
+          "Debate",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "date": "2024-08-12",
+        "framework": "HTML, CSS, JavaScript",
+        "industry": "Education",
+        "tasks": [
+          "Build a website for a debate council",
+          "Design event schedules, team member pages, and registration features",
+          "Implement discussion forums and member login"
+        ],
+        "requirements": [
+          "Support for event management and registration",
+          "Ensure smooth user experience for debate participants"
+        ],
+        "details": "TWS is the official website of the WordsMith Debate Council, providing updates on events, discussions, and team details.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "nabos",
+        "category": "Website",
+        "id": "13",
+        "demo": "https://github.com/dotandev/Botany",
+        "name": "NABOS",
+        "languages": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "description": "The official website of the National Association of Botany Students, UNILAG.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/Botany",
+        "tags": [
+          "Website",
+          "Botany",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "date": "2024-08-13",
+        "framework": "HTML, CSS, JavaScript",
+        "industry": "Education, Botany",
+        "tasks": [
+          "Design the official website for botany students association",
+          "Develop member and event management systems",
+          "Implement resources and articles for botany students"
+        ],
+        "requirements": [
+          "Ensure smooth user interaction",
+          "Enable easy access to academic and event information"
+        ],
+        "details": "NABOS is the official website of the National Association of Botany Students at UNILAG, providing resources and event information for members.",
+        "otherProjects": []
+      },
+      {
+        "searchName": "quizapi",
+        "category": "Backend",
+        "id": "14",
+        "demo": "https://github.com/dotandev/Quiz-API",
+        "name": "Quiz-API",
+        "languages": [
+          "Node.js",
+          "Express"
+        ],
+        "description": "A backend API for a quiz application.",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/dotandev/Quiz-API",
+        "tags": [
+          "API",
+          "Quiz",
+          "Node.js",
+          "Express"
+        ],
+        "date": "2024-08-14",
+        "framework": "Node.js, Express",
+        "industry": "Education",
+        "tasks": [
+          "Develop an API for quiz management",
+          "Support real-time quizzes and results tracking",
+          "Integrate user authentication for quiz participation"
+        ],
+        "requirements": [
+          "Ensure scalability for large quiz databases",
+          "Secure user data and quiz results"
+        ],
+        "details": "Quiz-API is a backend API that supports quiz management, real-time results tracking, and user participation.",
+        "otherProjects": []
+      }
+    ]
+  }
+}
