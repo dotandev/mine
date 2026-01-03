@@ -25,6 +25,7 @@ export function ThemeToggle() {
 }
 
 import { useLanguage } from "@/contexts/language-context"
+import { LanguageSwitcher } from "./language-switcher"
 
 const navigationItems = [
   { href: "/", key: "nav.home" as const },
@@ -69,7 +70,7 @@ export function Navigation() {
             <LanguageSwitcher />
 
             {/* Theme Toggle */}
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
           </div>
 
           {/* Mobile menu button */}

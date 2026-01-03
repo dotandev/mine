@@ -9,7 +9,7 @@ export const languages: Record<Language, { name: string; flag: string }> = {
   ja: { name: "日本語", flag: "🇯🇵" },
 }
 
-export const defaultLanguage: Language = "fr"
+export const defaultLanguage: Language = "en"
 
 export type TranslationKey = keyof typeof translations.en
 

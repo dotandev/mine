@@ -19,7 +19,7 @@ export function Preloader() {
 
         tl.to(counter, {
             value: 100,
-            duration: 3,
+            duration: 1,
             ease: "power2.inOut",
             onUpdate: () => {
                 if (counterRef.current) {

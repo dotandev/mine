@@ -26,6 +26,7 @@ import { Offices } from '@/components/uis/Offices';
 import { SocialMedia } from '@/components/uis/SocialMedia'
 import { Tabs } from '@radix-ui/react-tabs';
 import { ThemeToggle } from "@/components/theme-toggle";
+import { LanguageSwitcher } from '@/components/language-switcher';
 
 const NAV_LINKS = [
     { href: '/about', label: 'About', icon: '' },
@@ -215,7 +216,9 @@ function Header({
                                 ))}
                                 <div className="pl-0 md:pl-2 border-l-0 md:border-l border-neutral-200 dark:border-white/20 pt-2 md:pt-0 mt-2 md:mt-0 border-t md:border-t-0 w-full md:w-auto flex justify-end md:justify-start">
                                     <ThemeToggle />
+                                    
                                 </div>
+                                <div className="pl-0 md:pl-2 border-l-0 md:border-l border-neutral-200 dark:border-white/20 pt-2 md:pt-0 mt-2 md:mt-0 border-t md:border-t-0 w-full md:w-auto flex justify-end md:justify-start"><LanguageSwitcher /></div>
                             </motion.div>
                         ) : (
                             <motion.div
@@ -257,7 +260,9 @@ function Header({
                                 {/* ThemeToggle for non-scrolled state */}
                                 <div className={clsx("ml-2", invert ? "text-white" : "")}>
                                     <ThemeToggle />
+                                    
                                 </div>
+                                <div><LanguageSwitcher /></div>
                             </motion.div>
                         )}
                     </AnimatePresence>
